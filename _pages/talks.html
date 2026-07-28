@@ -1,3 +1,4 @@
+
 ---
 layout: archive
 title: "Talks and presentations"
@@ -5,87 +6,12 @@ permalink: /talks/
 author_profile: true
 ---
 
-<link rel="stylesheet" href="https://unpkg.
-<h2>Conference map</h2>
+{% if site.talkmap_link == true %}
 
-<div id="map" style="height:600px; margin-bottom:2rem;"></div>
+<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
 
-<script src="https://unpkg.com/leaflet.jsscript>
-
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-
-    var map = L.map('map').setView([20, 0], 2);
-
-    L.tileLayer(
-        'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
-        {
-            attribution: '&copy; OpenStreetMap contributors'
-        }
-    ).addTo(map);
-
-    var bounds = [];
-
-    function markerColor(type) {
-
-        if (type === "Oral presentation")
-            return "green";
-
-        if (type === "Poster")
-            return "blue";
-
-        if (type === "Invited talk")
-            return "red";
-
-        return "orange";
-    }
-
-    {% for talk in site.talks %}
-
-        {% if talk.lat and talk.lon %}
-
-            bounds.push([
-                {{ talk.lat }},
-                {{ talk.lon }}
-            ]);
-
-            L.circleMarker(
-                [
-                    {{ talk.lat }},
-                    {{ talk.lon }}
-                ],
-                {
-                    radius: 8,
-                    color: markerColor("{{ talk.type }}"),
-                    fillColor: markerColor("{{ talk.type }}"),
-                    fillOpacity: 0.8
-                }
-            )
-            .addTo(map)
-            .bindPopup(`
-                <strong>{{ talk.venue }}</strong><br>
-                {{ talk.location }}<br>
-                {{ talk.date | date: "%Y" }}<br><br>
-
-                {{ talk.title }}<br><br>
-
-                <a href="{{ talk.url | relative_url }}">
-                    View details
-                </a>
-            `);
-
-        {% endif %}
-
-    {% endfor %}
-
-    if (bounds.length > 0) {
-        map.fitBounds(bounds, {padding: [30, 30]});
-    }
-
-});
-</script>
+{% endif %}
 
 {% for post in site.talks reversed %}
   {% include archive-single-talk.html %}
 {% endfor %}
-``
