@@ -23,6 +23,21 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     ).addTo(map);
 
+    
+
+    // Fonction de choix de couleur
+    function markerColor(type){
+
+        if(type === "Oral presentation")
+            return "green";
+
+        if(type === "Poster")
+            return "blue";
+
+        return "red";
+    }
+
+
     {% for conf in site.data.conferences %}
 
     L.marker([
@@ -56,19 +71,3 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 </script>
-
-
-
-
-
-function markerColor(type){
-
-    if(type === "Oral presentation")
-        return "green";
-
-    if(type === "Poster")
-        return "blue";
-
-    return "red";
-}
-
