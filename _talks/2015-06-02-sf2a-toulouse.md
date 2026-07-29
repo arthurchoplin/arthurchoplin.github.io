@@ -8,4 +8,4 @@ date: 2015-06-02
 location: "Toulouse, France"
 ---
 
-Oral contribution.
+Oral contribution. 
