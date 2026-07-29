@@ -86,7 +86,7 @@ var addressPoints = [
   ],
   [
     "Annual Meeting of the French Society of Astronomy and Astrophysics<br />SF2A; Paris, France",
-    48.8588897,
-    2.320041
+    48.8534951,
+    2.3483915
   ]
 ];
