@@ -5,6 +5,11 @@ var addressPoints = [
     11.1297425
   ],
   [
+    "Nuclei in the Cosmos XVIII, Girona, Spain<br />Girona; Girona, Spain",
+    41.9793006,
+    2.8199439
+  ],
+  [
     "Talk 2 on Relevant Topic in Your Field<br />London School of Testing; London, UK",
     51.5074456,
     -0.1277653
