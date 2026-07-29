@@ -20,9 +20,19 @@ var addressPoints = [
     12.4829321
   ],
   [
+    "Astronomical Observatory of Abruzzo Colloquium Series<br />INAF; Online",
+    43.5904719,
+    3.8595132
+  ],
+  [
     "s, i & r Element Nucleosynthesis Conference<br />ECT*; Giulianova, Italy",
     42.7535708,
     13.9667861
+  ],
+  [
+    "Department of Astronomy Seminar<br />Kyoto University; Kyoto University, Kyoto, Japan",
+    35.0270467,
+    135.7814382
   ],
   [
     "Nuclei in the Cosmos XIV<br />NIC XIV; Niigata, Japan",
@@ -55,9 +65,19 @@ var addressPoints = [
     2.8199439
   ],
   [
+    "Astronomy Department Seminar<br />The University of Tokyo; The University of Tokyo, Tokyo, Japan",
+    35.7472291,
+    139.802157
+  ],
+  [
     "15th International Symposium on Origin of Matter and Evolution of Galaxies<br />OMEG XV; Kyoto, Japan",
     35.0115754,
     135.7681441
+  ],
+  [
+    "Institute of Astronomy and Astrophysics Seminar<br />Universit\u00e9 Libre de Bruxelles; Universit\u00e9 Libre de Bruxelles, Brussels, Belgium",
+    50.8134719,
+    4.3812534
   ],
   [
     "CEMP Stars as Probes of First-Star Nucleosynthesis, the IMF, and Galactic Assembly<br />CEMP Stars Meeting; Geneva, Switzerland",
@@ -70,33 +90,33 @@ var addressPoints = [
     2.320041
   ],
   [
-    "LAMOST Meeting<br />LAMOST; Tokyo, Japan",
-    35.6768601,
-    139.7638947
+    "ChETEC COST Action Meeting<br />ChETEC; Vilnius, Lithuania",
+    54.6870458,
+    25.2829111
   ],
   [
-    "Nuclear Physics in Astrophysics XI<br />NPA-XI; Dresden, Germany",
-    51.0493286,
-    13.7381437
+    "Department Seminar<br />Konan University; Konan University, Kobe, Japan",
+    34.7291419,
+    135.2683786
   ],
   [
-    "First Stars VI<br />First Stars VI; Concepci\u00f3n, Chile",
-    -36.8270698,
-    -73.0502064
+    "JINA-CEE Frontiers in Nuclear Astrophysics<br />JINA-CEE; South Bend, IN, USA",
+    41.6833813,
+    -86.2500066
   ],
   [
-    "Nuclear Physics in Astrophysics X<br />NPA-X; Geneva, Switzerland",
-    46.2017559,
-    6.1466014
+    "Annual Meeting of the French Society of Astronomy and Astrophysics<br />SF2A; Toulouse, France",
+    43.6044638,
+    1.4442433
   ],
   [
-    "8th p-process workshop<br />8th p-process workshop; Budapest, Hungary",
-    47.4978789,
-    19.0402383
+    "Astronomical Institute Seminar<br />Tohoku University; Tohoku University, Sendai, Japan",
+    38.2541921,
+    140.8407024
   ],
   [
-    "Astrophysics with Radioactive Isotopes<br />ARI; Budapest, Hungary",
-    47.4978789,
-    19.0402383
+    "ECT* Workshop: neutron-capture reactions for astrophysical processes<br />ECT*; Trento, Italy",
+    46.1029536,
+    11.1297425
   ]
 ];
