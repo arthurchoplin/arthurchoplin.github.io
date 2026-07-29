@@ -31,8 +31,8 @@ var addressPoints = [
   ],
   [
     "Department of Astronomy Seminar<br />Kyoto University; Kyoto University, Kyoto, Japan",
-    35.0270467,
-    135.7814382
+    35.0229299,
+    135.777149
   ],
   [
     "Nuclei in the Cosmos XIV<br />NIC XIV; Niigata, Japan",
@@ -86,8 +86,8 @@ var addressPoints = [
   ],
   [
     "Annual Meeting of the French Society of Astronomy and Astrophysics<br />SF2A; Paris, France",
-    48.8588897,
-    2.320041
+    48.8534951,
+    2.3483915
   ],
   [
     "ChETEC COST Action Meeting<br />ChETEC; Vilnius, Lithuania",
@@ -111,8 +111,8 @@ var addressPoints = [
   ],
   [
     "Astronomical Institute Seminar<br />Tohoku University; Tohoku University, Sendai, Japan",
-    38.2541921,
-    140.8407024
+    38.2603546,
+    140.8515893
   ],
   [
     "ECT* Workshop: neutron-capture reactions for astrophysical processes<br />ECT*; Trento, Italy",
