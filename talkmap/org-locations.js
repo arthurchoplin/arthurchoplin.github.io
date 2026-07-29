@@ -20,11 +20,6 @@ var addressPoints = [
     12.4829321
   ],
   [
-    "[Seminar]<br />Astronomical Observatory of Abruzzo Colloquium Series<br />INAF; Online",
-    43.5904719,
-    3.8595132
-  ],
-  [
     "[Invited review]<br />s, i & r Element Nucleosynthesis Conference<br />ECT*; Giulianova, Italy",
     42.7535708,
     13.9667861
@@ -90,9 +85,39 @@ var addressPoints = [
     2.320041
   ],
   [
-    "[Seminar]<br />Geneva Observatory Seminar<br />Geneva Observatory; Online",
-    43.5904719,
-    3.8595132
+    "[Invited talk]<br />Nuclear Physics in Astrophysics XI<br />NPA-XI; Dresden, Germany",
+    51.0493286,
+    13.7381437
+  ],
+  [
+    "[Oral contribution]<br />First Stars VI<br />First Stars VI; Concepci\u00f3n, Chile",
+    -36.8270698,
+    -73.0502064
+  ],
+  [
+    "[Oral contribution]<br />Nuclear Physics in Astrophysics X<br />NPA-X; Geneva, Switzerland",
+    46.2017559,
+    6.1466014
+  ],
+  [
+    "[Oral contribution]<br />8th p-process workshop<br />8th p-process workshop; Budapest, Hungary",
+    47.4978789,
+    19.0402383
+  ],
+  [
+    "[Oral contribution]<br />Astrophysics with Radioactive Isotopes<br />ARI; Budapest, Hungary",
+    47.4978789,
+    19.0402383
+  ],
+  [
+    "[Seminar]<br />Astro Seminar Series<br />Keele University; Keele, UK",
+    53.0038078,
+    -2.2877425
+  ],
+  [
+    "[Seminar]<br />IPHC Seminar<br />IPHC; IPHC, Strasbourg, France",
+    48.6081441,
+    7.7138336
   ],
   [
     "[Invited talk]<br />A Celebration of CEMP and Gala of GALAH<br />GALAH; Melbourne, Australia",
@@ -126,8 +151,8 @@ var addressPoints = [
   ],
   [
     "[Seminar]<br />Astronomical Institute Seminar<br />Tohoku University; Tohoku University, Sendai, Japan",
-    38.2541921,
-    140.8407024
+    38.2603546,
+    140.8515893
   ],
   [
     "[Invited talk]<br />ECT* Workshop: neutron-capture reactions for astrophysical processes<br />ECT*; Trento, Italy",
