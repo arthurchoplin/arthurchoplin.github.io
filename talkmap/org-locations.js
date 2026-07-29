@@ -5,11 +5,6 @@ var addressPoints = [
     138.7669125
   ],
   [
-    "ECT* Workshop: neutron-capture reactions for astrophysical processes<br />ECT*; Trento, Italy",
-    46.1029536,
-    11.1297425
-  ],
-  [
     "First Stars and First Galaxies Meeting<br />First Stars and First Galaxies; Nagoya, Japan",
     35.1851045,
     136.8998438
@@ -30,19 +25,14 @@ var addressPoints = [
     19.0402383
   ],
   [
-    "Talk 2 on Relevant Topic in Your Field<br />London School of Testing; London, UK",
-    51.5074456,
-    -0.1277653
+    "s, i & r Element Nucleosynthesis Conference<br />ECT*; Giulianova, Italy",
+    42.7535708,
+    13.9667861
   ],
   [
     "CEMP Stars as Probes of First-Star Nucleosynthesis, the IMF, and Galactic Assembly<br />CEMP Stars Meeting; Geneva, Switzerland",
     46.2017559,
     6.1466014
-  ],
-  [
-    "Tutorial 1 on Relevant Topic in Your Field<br />UC-Berkeley Institute for Testing Science; Berkeley, CA, USA",
-    37.8708393,
-    -122.272863
   ],
   [
     "3rd Rencontre PhyNuBE: Fission and Nuclear Astrophysics<br />PhyNuBE; Ol\u00e9ron, France",
@@ -58,6 +48,11 @@ var addressPoints = [
     "Nuclear Physics in Astrophysics IX<br />NPA-IX; Frankfurt, Germany",
     50.1106444,
     8.6820917
+  ],
+  [
+    "Nuclei in the Cosmos XVIII, Girona, Spain<br />Girona; Girona, Spain",
+    41.9793006,
+    2.8199439
   ],
   [
     "A Celebration of CEMP and Gala of GALAH<br />GALAH; Melbourne, Australia",
@@ -80,11 +75,6 @@ var addressPoints = [
     2.320041
   ],
   [
-    "s, i & r Element Nucleosynthesis Conference<br />ECT*; Giulianova, Italy",
-    42.7535708,
-    13.9667861
-  ],
-  [
     "LAMOST Meeting<br />LAMOST; Tokyo, Japan",
     35.6768601,
     139.7638947
@@ -98,5 +88,15 @@ var addressPoints = [
     "Annual Meeting of the French Society of Astronomy and Astrophysics<br />SF2A; Toulouse, France",
     43.6044638,
     1.4442433
+  ],
+  [
+    "15th International Symposium on Origin of Matter and Evolution of Galaxies<br />OMEG XV; Kyoto, Japan",
+    35.0115754,
+    135.7681441
+  ],
+  [
+    "Nuclear Physics in Astrophysics X<br />NPA-X; Geneva, Switzerland",
+    46.2017559,
+    6.1466014
   ]
 ];
