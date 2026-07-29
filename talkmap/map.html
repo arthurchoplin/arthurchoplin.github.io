@@ -38,7 +38,7 @@
             function markerColor(title) {
 
                 if(title.includes("[Seminar]"))
-                    return "purple";
+                    return "violet";
 
                 if(title.includes("[Poster]"))
                     return "blue";
@@ -47,10 +47,10 @@
                     return "red";
 
                 if(title.includes("[Invited review]"))
-                    return "darkred";
+                    return "red";
 
                 if(title.includes("[Invited lecture]"))
-                    return "darkred";
+                    return "red";
 
                 if(title.includes("[Oral contribution]"))
                     return "green";
@@ -68,16 +68,28 @@
     			var title = a[0];
     			//var marker = L.marker(new L.LatLng(a[1], a[2]), { title: title });
 
-                var marker = L.circleMarker(
-                    [a[1], a[2]],
+                var iconColor = markerColor(title);
+
+                var marker = L.marker(
+                    new L.LatLng(a[1], a[2]),
                     {
-                        radius: 8,
-                        color: markerColor(title),
-                        fillColor: markerColor(title),
-                        fillOpacity: 0.9,
-                        weight: 2
+                        title: title,
+                        icon: new L.Icon({
+                            iconUrl:
+                                'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-' +
+                                iconColor +
+                                '.png',
+                            shadowUrl:
+                                'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+                            iconSize: [25, 41],
+                            iconAnchor: [12, 41],
+                            popupAnchor: [1, -34],
+                            shadowSize: [41, 41]
+                        })
                     }
                 );
+
+
                 
     			marker.bindPopup(title);
     			markers.addLayer(marker);
