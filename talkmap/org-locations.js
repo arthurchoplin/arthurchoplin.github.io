@@ -40,9 +40,9 @@ var addressPoints = [
     -1.3061227
   ],
   [
-    "CaNPAN Annual Meeting<br />CaNPAN; Canada",
-    61.0666922,
-    -107.991707
+    "CaNPAN Annual Meeting<br />TRIUMF; TRIUMF, Vancouver BC, Canada",
+    49.2472455,
+    -123.2295664
   ],
   [
     "Nuclear Physics in Astrophysics IX<br />NPA-IX; Frankfurt, Germany",
