@@ -1,10 +1,5 @@
 var addressPoints = [
   [
-    "Nuclei in the Cosmos XIV<br />NIC XIV; Niigata, Japan",
-    37.6452283,
-    138.7669125
-  ],
-  [
     "First Stars and First Galaxies Meeting<br />First Stars and First Galaxies; Nagoya, Japan",
     35.1851045,
     136.8998438
@@ -30,9 +25,9 @@ var addressPoints = [
     13.9667861
   ],
   [
-    "CEMP Stars as Probes of First-Star Nucleosynthesis, the IMF, and Galactic Assembly<br />CEMP Stars Meeting; Geneva, Switzerland",
-    46.2017559,
-    6.1466014
+    "Nuclei in the Cosmos XIV<br />NIC XIV; Niigata, Japan",
+    37.6452283,
+    138.7669125
   ],
   [
     "3rd Rencontre PhyNuBE: Fission and Nuclear Astrophysics<br />PhyNuBE; Ol\u00e9ron, France",
@@ -55,14 +50,9 @@ var addressPoints = [
     2.8199439
   ],
   [
-    "A Celebration of CEMP and Gala of GALAH<br />GALAH; Melbourne, Australia",
-    -37.8142454,
-    144.9631732
-  ],
-  [
-    "JINA-CEE Frontiers in Nuclear Astrophysics<br />JINA-CEE; South Bend, IN, USA",
-    41.6833813,
-    -86.2500066
+    "15th International Symposium on Origin of Matter and Evolution of Galaxies<br />OMEG XV; Kyoto, Japan",
+    35.0115754,
+    135.7681441
   ],
   [
     "First Stars VI<br />First Stars VI; Concepci\u00f3n, Chile",
@@ -70,9 +60,14 @@ var addressPoints = [
     -73.0502064
   ],
   [
+    "CEMP Stars as Probes of First-Star Nucleosynthesis, the IMF, and Galactic Assembly<br />CEMP Stars Meeting; Geneva, Switzerland",
+    46.2017559,
+    6.1466014
+  ],
+  [
     "Annual Meeting of the French Society of Astronomy and Astrophysics<br />SF2A; Paris, France",
-    48.8588897,
-    2.320041
+    48.8534951,
+    2.3483915
   ],
   [
     "LAMOST Meeting<br />LAMOST; Tokyo, Japan",
@@ -85,18 +80,23 @@ var addressPoints = [
     13.7381437
   ],
   [
-    "Annual Meeting of the French Society of Astronomy and Astrophysics<br />SF2A; Toulouse, France",
-    43.6044638,
-    1.4442433
-  ],
-  [
-    "15th International Symposium on Origin of Matter and Evolution of Galaxies<br />OMEG XV; Kyoto, Japan",
-    35.0115754,
-    135.7681441
-  ],
-  [
     "Nuclear Physics in Astrophysics X<br />NPA-X; Geneva, Switzerland",
     46.2017559,
     6.1466014
+  ],
+  [
+    "8th p-process workshop<br />8th p-process workshop; Budapest, Hungary",
+    47.4978789,
+    19.0402383
+  ],
+  [
+    "JINA-CEE IReNA / NAOJ Meeting<br />NAOJ; Tokyo, Japan",
+    35.6768601,
+    139.7638947
+  ],
+  [
+    "13th Torino Workshop on AGB Stars & 3rd Perugia Workshop on Nuclear Astrophysics<br />Torino Workshop / Perugia Workshop; Perugia, Italy",
+    43.1070321,
+    12.4029962
   ]
 ];
