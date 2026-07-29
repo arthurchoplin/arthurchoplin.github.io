@@ -31,8 +31,8 @@ var addressPoints = [
   ],
   [
     "[Seminar]<br />Department of Astronomy Seminar<br />Kyoto University; Kyoto University, Kyoto, Japan",
-    35.0270467,
-    135.7814382
+    35.0229299,
+    135.777149
   ],
   [
     "[Poster]<br />Nuclei in the Cosmos XIV<br />NIC XIV; Niigata, Japan",
@@ -86,53 +86,8 @@ var addressPoints = [
   ],
   [
     "[Oral contribution]<br />Annual Meeting of the French Society of Astronomy and Astrophysics<br />SF2A; Paris, France",
-    48.8534951,
-    2.3483915
-  ],
-  [
-    "[Invited talk]<br />Nuclear Physics in Astrophysics XI<br />NPA-XI; Dresden, Germany",
-    51.0493286,
-    13.7381437
-  ],
-  [
-    "[Oral contribution]<br />First Stars VI<br />First Stars VI; Concepci\u00f3n, Chile",
-    -36.8270698,
-    -73.0502064
-  ],
-  [
-    "[Oral contribution]<br />Nuclear Physics in Astrophysics X<br />NPA-X; Geneva, Switzerland",
-    46.2017559,
-    6.1466014
-  ],
-  [
-    "[Oral contribution]<br />8th p-process workshop<br />8th p-process workshop; Budapest, Hungary",
-    47.4813896,
-    19.1457723
-  ],
-  [
-    "[Oral contribution]<br />Astrophysics with Radioactive Isotopes<br />ARI; Budapest, Hungary",
-    47.4813896,
-    19.1457723
-  ],
-  [
-    "[Seminar]<br />Astro Seminar Series<br />Keele University; Keele, UK",
-    53.0038078,
-    -2.2877425
-  ],
-  [
-    "[Seminar]<br />IReNA Online Seminar Series<br />IReNA; Online",
-    43.5904719,
-    3.8595132
-  ],
-  [
-    "[Seminar]<br />IPHC Seminar<br />IPHC; IPHC, Strasbourg, France",
-    48.6051148,
-    7.7123063
-  ],
-  [
-    "[Seminar]<br />STAREX Meeting<br />STAREX; Online",
-    43.5904719,
-    3.8595132
+    48.8588897,
+    2.320041
   ],
   [
     "[Seminar]<br />Geneva Observatory Seminar<br />Geneva Observatory; Online",
@@ -171,8 +126,8 @@ var addressPoints = [
   ],
   [
     "[Seminar]<br />Astronomical Institute Seminar<br />Tohoku University; Tohoku University, Sendai, Japan",
-    38.2581115,
-    140.8360434
+    38.2541921,
+    140.8407024
   ],
   [
     "[Invited talk]<br />ECT* Workshop: neutron-capture reactions for astrophysical processes<br />ECT*; Trento, Italy",
