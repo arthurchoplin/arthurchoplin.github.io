@@ -43,10 +43,10 @@ function markerColor(title) {
         return "red";
 
     if(title.includes("[Invited review]"))
-        return "darkred";
+        return "red";
 
     if(title.includes("[Invited lecture]"))
-        return "darkred";
+        return "red";
 
     if(title.includes("[Oral contribution]"))
         return "green";
@@ -100,7 +100,7 @@ legend.onAdd = function () {
     div.innerHTML =
         '<b>Talk type</b><br>' +
         '<i style="background:red;width:12px;height:12px;display:inline-block;margin-right:5px;"></i> Invited talk<br>' +
-        '<i style="background:darkred;width:12px;height:12px;display:inline-block;margin-right:5px;"></i> Invited review / lecture<br>' +
+        '<i style="background:red;width:12px;height:12px;display:inline-block;margin-right:5px;"></i> Invited review / lecture<br>' +
         '<i style="background:green;width:12px;height:12px;display:inline-block;margin-right:5px;"></i> Oral contribution<br>' +
         '<i style="background:blue;width:12px;height:12px;display:inline-block;margin-right:5px;"></i> Poster<br>' +
         '<i style="background:yellow;width:12px;height:12px;display:inline-block;margin-right:5px;"></i> Seminar';

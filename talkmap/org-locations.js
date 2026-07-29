@@ -116,8 +116,8 @@ var addressPoints = [
   ],
   [
     "[Seminar]<br />IPHC Seminar<br />IPHC; IPHC, Strasbourg, France",
-    48.6051148,
-    7.7123063
+    48.6081441,
+    7.7138336
   ],
   [
     "[Invited talk]<br />A Celebration of CEMP and Gala of GALAH<br />GALAH; Melbourne, Australia",
@@ -151,8 +151,8 @@ var addressPoints = [
   ],
   [
     "[Seminar]<br />Astronomical Institute Seminar<br />Tohoku University; Tohoku University, Sendai, Japan",
-    38.2541921,
-    140.8407024
+    38.2581115,
+    140.8360434
   ],
   [
     "[Invited talk]<br />ECT* Workshop: neutron-capture reactions for astrophysical processes<br />ECT*; Trento, Italy",
