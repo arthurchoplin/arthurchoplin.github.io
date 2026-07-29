@@ -61,25 +61,3 @@ for file in g:
 # Save the map
 m = getorg.orgmap.create_map_obj()
 getorg.orgmap.output_html_cluster_map(location_dict, folder_name="talkmap", hashed_usernames=False)
-
-
-
-
-html_file = "talkmap/map.html"
-
-with open(html_file, "r", encoding="utf-8") as f:
-    html = f.read()
-
-html = html.replace(
-    "markerColor: 'blue'",
-    """markerColor: (
-        popupContent.includes('[Seminar]') ? 'purple' :
-        popupContent.includes('[Poster]') ? 'blue' :
-        popupContent.includes('[Invited talk]') ? 'red' :
-        popupContent.includes('[Oral contribution]') ? 'green' :
-        'cadetblue'
-    )"""
-)
-
-with open(html_file, "w", encoding="utf-8") as f:
-    f.write(html)
