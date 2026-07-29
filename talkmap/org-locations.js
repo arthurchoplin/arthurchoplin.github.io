@@ -1,8 +1,8 @@
 var addressPoints = [
   [
-    "Test<br />Testing Institute of America 2014 Annual Conference; Giulianova, Italy",
-    42.7535708,
-    13.9667861
+    "ECT* Workshop: neutron-capture reactions for astrophysical processes<br />ECT*; Trento, Italy",
+    46.1029536,
+    11.1297425
   ],
   [
     "Talk 2 on Relevant Topic in Your Field<br />London School of Testing; London, UK",
