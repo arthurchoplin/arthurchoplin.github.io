@@ -95,6 +95,34 @@
     			markers.addLayer(marker);
     		}
     		map.addLayer(markers);
+
+
+            
+            var legend = L.control({position: 'bottomright'});
+            
+            legend.onAdd = function () {
+
+                var div = L.DomUtil.create('div', 'info legend');
+
+                div.style.backgroundColor = 'white';
+                div.style.padding = '10px';
+                div.style.border = '1px solid #999';
+
+                div.innerHTML =
+                    '<b>Talk type</b><br>' +
+                    '<i style="background:red;width:12px;height:12px;display:inline-block;margin-right:5px;"></i> Invited talk<br>' +
+                    '<i style="background:green;width:12px;height:12px;display:inline-block;margin-right:5px;"></i> Oral contribution<br>' +
+                    '<i style="background:blue;width:12px;height:12px;display:inline-block;margin-right:5px;"></i> Poster<br>' +
+                    '<i style="background:purple;width:12px;height:12px;display:inline-block;margin-right:5px;"></i> Seminar';
+
+                return div;
+            };
+
+            legend.addTo(map);
+
+
+            
+            
     		map.zoomIn();
     	</script>
     </body>
