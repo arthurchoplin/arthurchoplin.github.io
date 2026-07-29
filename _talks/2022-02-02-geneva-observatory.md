@@ -5,7 +5,7 @@ type: "Seminar"
 permalink: /talks/2022-02-02-geneva-observatory
 venue: "Geneva Observatory"
 date: 2022-02-02
-location: "Geneva, Switzerland"
+location: "Online"
 ---
 
 Seminar talk.
