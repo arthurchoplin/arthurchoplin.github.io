@@ -30,6 +30,24 @@
     			showCoverageOnHover: false,
     			maxClusterRadius: 80
     			});
+
+
+            
+            function markerColor(title) {
+                title = title.toLowerCase();
+                if(title.includes("seminar"))
+                    return "purple";
+                if(title.includes("poster"))
+                    return "blue";
+                if(title.includes("invited talk"))
+                    return "red";
+                if(title.includes("oral contribution"))
+                    return "green";
+                return "orange";
+            }
+
+
+            
     		for (var i = 0; i < addressPoints.length; i++) {
     			var a = addressPoints[i];
     			var title = a[0];
