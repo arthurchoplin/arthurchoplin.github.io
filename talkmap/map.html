@@ -30,10 +30,55 @@
     			showCoverageOnHover: false,
     			maxClusterRadius: 80
     			});
-    		for (var i = 0; i < addressPoints.length; i++) {
+
+
+
+
+            
+            function markerColor(title) {
+
+                if(title.includes("[Seminar]"))
+                    return "purple";
+
+                if(title.includes("[Poster]"))
+                    return "blue";
+
+                if(title.includes("[Invited talk]"))
+                    return "red";
+
+                if(title.includes("[Invited review]"))
+                    return "darkred";
+
+                if(title.includes("[Invited lecture]"))
+                    return "darkred";
+
+                if(title.includes("[Oral contribution]"))
+                    return "green";
+
+                return "orange";
+            }
+
+
+
+            
+            
+            
+            for (var i = 0; i < addressPoints.length; i++) {
     			var a = addressPoints[i];
     			var title = a[0];
-    			var marker = L.marker(new L.LatLng(a[1], a[2]), { title: title });
+    			//var marker = L.marker(new L.LatLng(a[1], a[2]), { title: title });
+
+                var marker = L.circleMarker(
+                    [a[1], a[2]],
+                    {
+                        radius: 8,
+                        color: markerColor(title),
+                        fillColor: markerColor(title),
+                        fillOpacity: 0.9,
+                        weight: 2
+                    }
+                );
+                
     			marker.bindPopup(title);
     			markers.addLayer(marker);
     		}
