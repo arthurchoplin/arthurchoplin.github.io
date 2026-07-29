@@ -5,7 +5,7 @@ type: "Seminar"
 permalink: /talks/2024-04-19-stockholm
 venue: "Stockholm University"
 date: 2024-04-19
-location: "Stockholm, Sweden"
+location: "Stockholm University, Stockholm, Sweden"
 ---
 
 Seminar talk.
