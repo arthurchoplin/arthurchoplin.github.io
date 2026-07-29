@@ -26,8 +26,8 @@ var addressPoints = [
   ],
   [
     "[Seminar]<br />Department of Astronomy Seminar<br />Kyoto University; Kyoto University, Kyoto, Japan",
-    35.0229299,
-    135.777149
+    35.0270467,
+    135.7814382
   ],
   [
     "[Poster]<br />Nuclei in the Cosmos XIV<br />NIC XIV; Niigata, Japan",
@@ -81,8 +81,8 @@ var addressPoints = [
   ],
   [
     "[Oral contribution]<br />Annual Meeting of the French Society of Astronomy and Astrophysics<br />SF2A; Paris, France",
-    48.8588897,
-    2.320041
+    48.8534951,
+    2.3483915
   ],
   [
     "[Invited talk]<br />Nuclear Physics in Astrophysics XI<br />NPA-XI; Dresden, Germany",
@@ -101,13 +101,13 @@ var addressPoints = [
   ],
   [
     "[Oral contribution]<br />8th p-process workshop<br />8th p-process workshop; Budapest, Hungary",
-    47.4978789,
-    19.0402383
+    47.4813896,
+    19.1457723
   ],
   [
     "[Oral contribution]<br />Astrophysics with Radioactive Isotopes<br />ARI; Budapest, Hungary",
-    47.4978789,
-    19.0402383
+    47.4813896,
+    19.1457723
   ],
   [
     "[Seminar]<br />Astro Seminar Series<br />Keele University; Keele, UK",
@@ -116,8 +116,8 @@ var addressPoints = [
   ],
   [
     "[Seminar]<br />IPHC Seminar<br />IPHC; IPHC, Strasbourg, France",
-    48.6081441,
-    7.7138336
+    48.6051148,
+    7.7123063
   ],
   [
     "[Invited talk]<br />A Celebration of CEMP and Gala of GALAH<br />GALAH; Melbourne, Australia",
