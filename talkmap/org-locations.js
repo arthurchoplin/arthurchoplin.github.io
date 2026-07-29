@@ -88,5 +88,95 @@ var addressPoints = [
     "[Oral contribution]<br />Annual Meeting of the French Society of Astronomy and Astrophysics<br />SF2A; Paris, France",
     48.8534951,
     2.3483915
+  ],
+  [
+    "[Invited talk]<br />Nuclear Physics in Astrophysics XI<br />NPA-XI; Dresden, Germany",
+    51.0493286,
+    13.7381437
+  ],
+  [
+    "[Oral contribution]<br />First Stars VI<br />First Stars VI; Concepci\u00f3n, Chile",
+    -36.8270698,
+    -73.0502064
+  ],
+  [
+    "[Oral contribution]<br />Nuclear Physics in Astrophysics X<br />NPA-X; Geneva, Switzerland",
+    46.2017559,
+    6.1466014
+  ],
+  [
+    "[Oral contribution]<br />8th p-process workshop<br />8th p-process workshop; Budapest, Hungary",
+    47.4813896,
+    19.1457723
+  ],
+  [
+    "[Oral contribution]<br />Astrophysics with Radioactive Isotopes<br />ARI; Budapest, Hungary",
+    47.4813896,
+    19.1457723
+  ],
+  [
+    "[Seminar]<br />Astro Seminar Series<br />Keele University; Keele, UK",
+    53.0038078,
+    -2.2877425
+  ],
+  [
+    "[Seminar]<br />IReNA Online Seminar Series<br />IReNA; Online",
+    43.5904719,
+    3.8595132
+  ],
+  [
+    "[Seminar]<br />IPHC Seminar<br />IPHC; IPHC, Strasbourg, France",
+    48.6051148,
+    7.7123063
+  ],
+  [
+    "[Seminar]<br />STAREX Meeting<br />STAREX; Online",
+    43.5904719,
+    3.8595132
+  ],
+  [
+    "[Seminar]<br />Geneva Observatory Seminar<br />Geneva Observatory; Online",
+    43.5904719,
+    3.8595132
+  ],
+  [
+    "[Invited talk]<br />A Celebration of CEMP and Gala of GALAH<br />GALAH; Melbourne, Australia",
+    -37.8142454,
+    144.9631732
+  ],
+  [
+    "[Seminar]<br />Department of Astronomy Seminar<br />Stockholm University; Stockholm University, Stockholm, Sweden",
+    59.366141,
+    18.059593
+  ],
+  [
+    "[Oral contribution]<br />ChETEC COST Action Meeting<br />ChETEC; Vilnius, Lithuania",
+    54.6870458,
+    25.2829111
+  ],
+  [
+    "[Seminar]<br />Department Seminar<br />Konan University; Konan University, Kobe, Japan",
+    34.7291419,
+    135.2683786
+  ],
+  [
+    "[Invited talk]<br />JINA-CEE Frontiers in Nuclear Astrophysics<br />JINA-CEE; South Bend, IN, USA",
+    41.6833813,
+    -86.2500066
+  ],
+  [
+    "[Oral contribution]<br />Annual Meeting of the French Society of Astronomy and Astrophysics<br />SF2A; Toulouse, France",
+    43.6044638,
+    1.4442433
+  ],
+  [
+    "[Seminar]<br />Astronomical Institute Seminar<br />Tohoku University; Tohoku University, Sendai, Japan",
+    38.2581115,
+    140.8360434
+  ],
+  [
+    "[Invited talk]<br />ECT* Workshop: neutron-capture reactions for astrophysical processes<br />ECT*; Trento, Italy",
+    46.1029536,
+    11.1297425
   ]
 ];
