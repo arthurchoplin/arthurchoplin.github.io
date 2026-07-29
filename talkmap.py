@@ -65,7 +65,7 @@ getorg.orgmap.output_html_cluster_map(location_dict, folder_name="talkmap", hash
 
 
 
-html_file = "talkmap/index.html"
+html_file = "talkmap/map.html"
 
 with open(html_file, "r", encoding="utf-8") as f:
     html = f.read()
